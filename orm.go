@@ -8,4 +8,3 @@ type Message struct {
 	IsDone bool   `json:"is_done"`    // В GO используем CamelCase, в Json - snake
 	ID     uint   `gorm:"primarykey"` //индефикатор задачи
 }
-""
